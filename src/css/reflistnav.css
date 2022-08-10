@@ -1,0 +1,50 @@
+.reflist-nav {
+  width: 300px;
+  background-color: #fafafa;
+  position: relative;
+  box-sizing: border-box;
+  padding: 30px 10px 30px 40px;
+}
+.reflist-nav-toggle {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  background-color: transparent;
+  right: 0;
+  top: 0;
+  cursor: col-resize;
+  transition: all 0.25s ease;
+}
+.reflist-nav-toggle:hover {
+  background-color: #eee;
+}
+.reflist-nav-inner-box .reflist-nav-inner-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.25s ease;
+  display: flex;
+  align-items: center;
+}
+.reflist-nav-inner-box .reflist-nav-inner-item:hover {
+  background-color: #eee;
+}
+.reflist-nav-inner-box .reflist-nav-inner-item span {
+  margin-right: 10px;
+}
+
+.reflist-nav-svg-inbox svg {
+  color: #246fe0;
+}
+.reflist-nav-svg-today svg {
+  color: #2e974a;
+}
+.reflist-nav-svg-preview svg {
+  color: rgb(186, 45, 185);
+}
+.reflist-nav-svg-filter svg {
+  color: rgb(209, 129, 45);
+}
+.reflist-nav-svg-tags svg {
+  color: rgb(67, 213, 209);
+}
